@@ -20,10 +20,13 @@
         <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
         <script type="text/babel">
             const rootElement = document.querySelector('.root');
-
+            const styles = {
+                color: 'red',
+                backgroundColor: 'red',
+            };
             const header = (
                 <header>
-                    <h1> displays your full name</h1>
+                    <h1 style={{ color: 'red' }}> displays your full name</h1>
                     <p> country, title, gender, email, phone number</p>
                 </header>
             );
@@ -40,7 +43,7 @@
             );
 
             const footer = (
-                <footer>
+                <footer style={styles}>
                     <p>
                         omg is this a footer element??????? WHO COULD HAVE KNOWN
                     </p>
