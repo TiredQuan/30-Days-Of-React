@@ -10,3 +10,7 @@
     > The propTypes package is a package that I literally never know about, that supposedly help with assigning data types to props (Just use eslint)
 -   What is a default proptypes?
     > it's a proptype that is default
+
+# I'm not doing exercise 3
+
+i'm fucking good
