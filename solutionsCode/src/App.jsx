@@ -1,9 +1,9 @@
-// import { Exercise2 } from "./components/day-06/Exercise2"
+import { Exercise2 } from "./components/day-08/Exercise2"
 function App() {
 
   return (
     <>
-    <h1>lmao</h1>
+    <Exercise2></Exercise2>
     </>
   )
 }
