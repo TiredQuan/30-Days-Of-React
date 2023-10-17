@@ -1,9 +1,10 @@
-import { Exercise2 } from "./components/day-08/Exercise2"
+import { Portfolio } from "./components/day-10/Portfolio"
 function App() {
 
   return (
     <>
-    <Exercise2></Exercise2>
+    <Portfolio></Portfolio>
+    <h1></h1>
     </>
   )
 }
