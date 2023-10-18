@@ -6,3 +6,15 @@
     > OnKeyDown, OnKeyUp, OnCopy, OnCut
 -   Write atleast 8 mouse events
     > OnClick, OnMouseEnter, OnMouseOut, OnDrag, OnMouseUp, OnMouseDown, OnMouseLeave,OnMouseOver
+-   What are the most common mouse and keyboard events
+    > OnKeyDown, OnCopy, OnClick, OnMouseOver
+-   Write an event specific to input Element
+    > OnInput
+-   Write an event specific to form Element
+    > OnSubmit
+-   Display the coordinate of the view port when a mouse is moving on the body
+    > Did
+-   What is the difference between onInput, onChange and on Blur?
+    > onInput watches for changes in an input field, a value change inside for example, onChange activates when the input, or an option select is changed, onBlur, activates when a user leaves input field
+-   Where do we put the onSubmit event?
+    > the onSubmit event shall be put in the submit button in a form
