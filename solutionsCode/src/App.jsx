@@ -1,4 +1,4 @@
-import { Exercise } from "./components/day-11/Exercise"
+import Exercise from "./components/day-12/ExerciseInputValidation"
 function App() {
 
   return (
