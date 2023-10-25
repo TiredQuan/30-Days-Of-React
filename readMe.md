@@ -1,3 +1,3 @@
 This is me learning react in 30 days flat
 
-I was gonna update this on the daily, but I feel like it's too much of a hassle to do so, so I won't
+If ya wonder why there are missing code solutions on some days, it's because either that day doesn't have any exercises, or the exercise is so simple that I didn't bother doing it

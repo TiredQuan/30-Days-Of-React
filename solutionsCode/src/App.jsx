@@ -1,9 +1,9 @@
-import Exercise from "./components/day-12/ExerciseInputValidation"
+import InputHandler from "./components/day-16/InputHandler"
 function App() {
 
   return (
     <>
-    <Exercise></Exercise>
+    <InputHandler type="email" ></InputHandler>
     </>
   )
 }
