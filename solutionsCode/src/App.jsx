@@ -1,4 +1,4 @@
-import FetchCat from "./components/day-18/FetchCat";
+import FetchCat from "./components/day-19/FetchCat";
 function App() {
   return (
     <>

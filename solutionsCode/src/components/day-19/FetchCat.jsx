@@ -3,6 +3,9 @@ let catAverageAge;
 let catAverageWeightArray = [];
 let catAverageWeight;
 
+let catBreedTotal;
+
+let catpic;
 await fetch("https://api.thecatapi.com/v1/breeds")
   .then((response) => response.json())
   .then((data) => {
@@ -10,7 +13,15 @@ await fetch("https://api.thecatapi.com/v1/breeds")
     catData.forEach((item) => {
       catAverageAgeArray.push(averageCatLifespan(item.life_span));
       catAverageWeightArray.push(averageCatLifespan(item.weight.metric));
+
+      catBreedTotal = data.length;
     });
+  });
+await fetch("https://api.thecatapi.com/v1/images/search?breed_id=abys")
+  .then((response) => response.json())
+  .then((data) => {
+    const catData = data;
+    catpic = catData[0].url;
   });
 
 catAverageAge = calculateAverage(catAverageAgeArray).toFixed(2);
@@ -33,10 +44,14 @@ function averageCatLifespan(catstats) {
 export default function FetchCat() {
   return (
     <>
-      <h1>
+      <h1>There are {catBreedTotal} cat breeds</h1>
+      <h2>
         On average a cat can weight about {catAverageWeight} and live{" "}
         {catAverageAge} years
-      </h1>
+      </h2>
+      <img src={catpic} alt="" />
     </>
   );
 }
+
+//consult the whiteboard for what to do next
