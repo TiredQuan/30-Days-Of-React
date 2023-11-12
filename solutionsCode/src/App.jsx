@@ -1,8 +1,8 @@
-import FetchCat from "./components/day-19-20/FetchCat";
+import CountriesData from "./components/day-24/CountriesData";
 function App() {
   return (
     <>
-      <FetchCat />
+      <CountriesData />
     </>
   );
 }
